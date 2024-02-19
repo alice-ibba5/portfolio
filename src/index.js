@@ -4,6 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "@fontsource/caudex"; // Defaults to weight 400
+import "@fontsource/caudex/400.css"; // Specify weight
+import "@fontsource/caudex/400-italic.css"; // Specify weight and style
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
