@@ -24,6 +24,6 @@ h1 {
 
 @media only screen and (max-width: 600px) {
     h1 {
-        max-width: 350px;
+        max-width: 300px;
     }
 }
