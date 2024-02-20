@@ -72,7 +72,7 @@ function Home() {
                   <Button
                     variant="light"
                     href="https://gdlove.netlify.app/"
-                    className="w-100"
+                    className="w-100 mb-5"
                   >
                     Graduation Project
                   </Button>
