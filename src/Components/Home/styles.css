@@ -1,9 +1,20 @@
-#photo {
-    width: 400px;
+#quadrato {
+    width: 350px;
+    height: 450px;
     margin-top: 100px;
     box-shadow: 5px 5px 15px 5px #757575;
     margin-bottom: 100px;
-    border-radius: 20px;
+    background-color: rgb(247, 243, 240);
+    flex: none;
+}
+
+#photo {
+    width: 250px;
+    border-radius: 200px;
+}
+
+#rettangolo {
+    background-color: rgba(171,169,195);
 }
 
 h1 {    

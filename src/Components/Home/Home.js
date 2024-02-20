@@ -10,9 +10,26 @@ function Home() {
       <NavBar />
       <Container>
         <Row>
-          <Col lg={6} xs={12}>
-            <Image src={photo} id="photo" />
+          <Col
+            lg={6}
+            xs={12}
+            className="d-flex justify-content-center align-items-center"
+          >
+            <Col
+              id="quadrato"
+              className="d-flex flex-column align-content-center"
+            >
+              <Image
+                src={photo}
+                id="photo"
+                className="align-self-center mt-4"
+              />
+              <h5 className="ms-5 mt-5">Contatti:</h5>
+              <h6 className="ms-5">• alice.ibba5@gmail.com</h6>
+              <h6 className="ms-5">• +39 346 2405424</h6>
+            </Col>
           </Col>
+
           <Col lg={5} xs={12}>
             <h1>Ciao, mi chiamo Alice Ibba.</h1>
             <h4>Cittadina del mondo, lettrice per caso,</h4>
