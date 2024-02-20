@@ -20,5 +20,10 @@ h1 {
     #photo {
         max-width: 350px;
     }
-    
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        max-width: 350px;
+    }
 }
