@@ -24,7 +24,7 @@ function Home() {
                 id="photo"
                 className="align-self-center mt-4"
               />
-              <h5 className="ms-5 mt-5">Contatti:</h5>
+              <h5 className="ms-5 mt-3">Contatti:</h5>
               <h6 className="ms-5">• alice.ibba5@gmail.com</h6>
               <h6 className="ms-5">• +39 346 2405424</h6>
             </Col>
