@@ -88,10 +88,10 @@ function Home() {
                 <div>
                   <Button
                     variant="light"
-                    href="https://gdlove.netlify.app/"
+                    href="/portfolio"
                     className="w-100 mb-5"
                   >
-                    Graduation Project
+                    Portfolio
                   </Button>
                 </div>
               </Stack>
