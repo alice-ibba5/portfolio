@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import NavBar from "../Navbar/Navbar.js";
 import Footer from "../Footer/Footer.js";
 import photo from "../../assets/photo.jpg";
@@ -6,16 +6,6 @@ import { Container, Row, Col, Image, Button, Stack } from "react-bootstrap";
 import "./styles.css";
 
 function Home() {
-  const [showParagraphs, setShowParagraphs] = useState(false);
-
-  const handleMouseEnter = () => {
-    setShowParagraphs(true);
-  };
-
-  const handleMouseLeave = () => {
-    setShowParagraphs(false);
-  };
-
   return (
     <>
       <NavBar />
