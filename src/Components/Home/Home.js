@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import NavBar from "../Navbar/Navbar.js";
 import Footer from "../Footer/Footer.js";
 import photo from "../../assets/photo.jpg";
@@ -5,6 +6,16 @@ import { Container, Row, Col, Image, Button, Stack } from "react-bootstrap";
 import "./styles.css";
 
 function Home() {
+  const [showParagraphs, setShowParagraphs] = useState(false);
+
+  const handleMouseEnter = () => {
+    setShowParagraphs(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowParagraphs(false);
+  };
+
   return (
     <>
       <NavBar />
@@ -14,6 +25,7 @@ function Home() {
             lg={6}
             xs={12}
             className="d-flex justify-content-center align-items-center"
+            id="polaroid"
           >
             <Col
               id="quadrato"
@@ -31,31 +43,9 @@ function Home() {
           </Col>
 
           <Col lg={5} xs={12}>
-            <h1>Ciao, mi chiamo Alice Ibba.</h1>
-            <h4>Cittadina del mondo, lettrice per caso,</h4>
+            <h1>Ciao, mi chiamo Alice Ibba</h1>
             <h4>💻 Developer per passione.</h4>
-            {/* <p>
-              👩‍💻 Sono una sviluppatrice web full-stack con un background
-              altrettanto diversificato quanto i miei interessi! 🎨
-            </p>
 
-            <p>
-              🚀 Recentemente, alimentata dalla mia passione per la tecnologia e
-              lo sviluppo web, mi sono lanciata in un percorso di 6 mesi per
-              diventare una sviluppatrice web full-stack.
-            </p>
-            <p>
-              📖 Le mie competenze spaziano dallo sviluppo frontend a quello
-              backend, includendo HTML, CSS, JavaScript, React, Node.js,
-              Bootstrap e MongoDB.
-            </p>
-
-            <p>
-              💡 Mi piace pensarmi come una multipotenziale, con una miriade di
-              interessi e passioni creative. Oltre alla tecnologia, sono
-              profondamente affascinata dalla psicologia, dalla sostenibilità,
-              dal benessere e dal design.
-            </p> */}
             <Container className="d-flex flex-column align-items-center">
               <Stack gap={2}>
                 <div>
@@ -96,6 +86,35 @@ function Home() {
                 </div>
               </Stack>
             </Container>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col lg={12} xs={12}>
+            <div className="">
+              <p>
+                👩‍💻 Sono una sviluppatrice web full-stack con un background
+                altrettanto diversificato quanto i miei interessi! 🎨
+              </p>
+
+              <p>
+                🚀 Recentemente, alimentata dalla mia passione per la tecnologia
+                e lo sviluppo web, mi sono lanciata in un percorso di 6 mesi per
+                diventare una sviluppatrice web full-stack.
+              </p>
+              <p>
+                📖 Le mie competenze spaziano dallo sviluppo frontend a quello
+                backend, includendo HTML, CSS, JavaScript, React, Node.js,
+                Bootstrap, MongoDB, Java, Springboot e MySQL.
+              </p>
+
+              <p>
+                💡 Mi piace pensarmi come una multipotenziale, con una miriade
+                di interessi e passioni creative. Oltre alla tecnologia, sono
+                profondamente affascinata dalla psicologia, dalla sostenibilità,
+                dal benessere e dal design.
+              </p>
+            </div>
           </Col>
         </Row>
       </Container>

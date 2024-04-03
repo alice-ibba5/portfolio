@@ -1,3 +1,13 @@
 .bottone {
     background-color: #AFA9C4 !important;
+    border-color: #AFA9C4;
+    
+
+}
+
+.card  {
+    display: flex !important;
+    flex-direction: column !important;
+    box-shadow: 5px 5px 15px -2px #000000;
+    align-content: center;
 }
