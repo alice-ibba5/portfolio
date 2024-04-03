@@ -45,7 +45,7 @@ function Portfolio() {
                 <Button
                   variant="primary"
                   className="bottone"
-                  href="https://main--netflix-clone-clone.netlify.app/"
+                  href="https://netflix-clone-m3-d7.onrender.com/"
                 >
                   Visita
                 </Button>
@@ -62,11 +62,7 @@ function Portfolio() {
                   Web app che gestisce uno store di prodotti sviluppata con Java
                   e MySQL.
                 </Card.Text>
-                <Button
-                  variant="primary"
-                  className="bottone"
-                  href="https://netflix-clone-m3-d7.onrender.com/"
-                >
+                <Button variant="primary" className="bottone" href="">
                   Visita
                 </Button>
               </Card.Body>
