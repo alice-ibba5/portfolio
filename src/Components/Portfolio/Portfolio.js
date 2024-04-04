@@ -63,7 +63,11 @@ function Portfolio() {
                   Programma che gestisce uno store di prodotti sviluppato con
                   Java e MySQL.
                 </Card.Text>
-                <Button variant="primary" className="bottone" href="">
+                <Button
+                  variant="primary"
+                  className="bottone"
+                  href="/storeProdotti"
+                >
                   Visita
                 </Button>
               </Card.Body>
@@ -79,7 +83,11 @@ function Portfolio() {
                   Programma che gestisce una biblioteca sviluppato con Java e
                   MySQL.
                 </Card.Text>
-                <Button variant="primary" className="bottone" href="">
+                <Button
+                  variant="primary"
+                  className="bottone"
+                  href="/biblioteca"
+                >
                   Visita
                 </Button>
               </Card.Body>
