@@ -3,6 +3,7 @@ import Footer from "../Footer/Footer.js";
 import photo from "../../assets/gdlove.png";
 import photo2 from "../../assets/netflix.png";
 import photo3 from "../../assets/Prodotti.png";
+import photo4 from "../../assets/Biblioteca.png";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import "./styles.css";
 
@@ -59,8 +60,8 @@ function Portfolio() {
               <Card.Body className="d-flex flex-column">
                 <Card.Title>Store Prodotti</Card.Title>
                 <Card.Text>
-                  Web app che gestisce uno store di prodotti sviluppata con Java
-                  e MySQL.
+                  Programma che gestisce uno store di prodotti sviluppato con
+                  Java e MySQL.
                 </Card.Text>
                 <Button variant="primary" className="bottone" href="">
                   Visita
@@ -71,11 +72,11 @@ function Portfolio() {
 
           <Col lg={3} xs={12} className="p-3">
             <Card style={{ width: "18rem", height: "21rem" }}>
-              <Card.Img variant="top" src={photo} />
+              <Card.Img variant="top" src={photo4} />
               <Card.Body className="d-flex flex-column">
                 <Card.Title>Biblioteca</Card.Title>
                 <Card.Text>
-                  Web app che gestisce una biblioteca sviluppata con Java e
+                  Programma che gestisce una biblioteca sviluppato con Java e
                   MySQL.
                 </Card.Text>
                 <Button variant="primary" className="bottone" href="">
