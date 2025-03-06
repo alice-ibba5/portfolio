@@ -43,6 +43,8 @@ function Home() {
                     variant="light"
                     href="https://www.linkedin.com/in/alice-ibba-developer/"
                     className="w-100"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     LinkedIn
                   </Button>
@@ -52,6 +54,8 @@ function Home() {
                     variant="light"
                     href="https://github.com/alice-ibba5"
                     className="w-100"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     GitHub
                   </Button>
@@ -59,8 +63,10 @@ function Home() {
                 <div>
                   <Button
                     variant="light"
-                    href="https://drive.google.com/file/d/1NbWBq9QyzbD4uk41Qg3X9qmlqxOAShy9/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1kjU3Q45dtnGxIhW6f7Vo8Ea4zONtZ9wc/view?usp=drive_link"
                     className="w-100"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     CV
                   </Button>
