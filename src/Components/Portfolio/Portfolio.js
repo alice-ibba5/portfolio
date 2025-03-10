@@ -4,6 +4,7 @@ import photo from "../../assets/gdlove.png";
 import photo2 from "../../assets/netflix.png";
 import photo3 from "../../assets/Prodotti.png";
 import photo4 from "../../assets/Biblioteca.png";
+import photo5 from "../../assets/archimago.jpg";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import "./styles.css";
 
@@ -14,7 +15,29 @@ function Portfolio() {
       <Container>
         <h1>Portfolio</h1>
         <Row className="mt-5 mb-5">
-          <Col lg={3} xs={12} className="p-3 d-flex flex-column">
+          <Col lg={4} xs={12} className="p-3 d-flex flex-column">
+            <Card style={{ width: "18rem", height: "21rem" }} className="card">
+              <Card.Img variant="top" src={photo5} />
+              <Card.Body className="d-flex flex-column">
+                <Card.Title>Archimago Website</Card.Title>
+                <Card.Text>
+                  Sito web dello studio di architettura Archimago, sviluppato
+                  con React.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  className="bottone"
+                  href="https://www.archimago.it/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visita
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col lg={4} xs={12} className="p-3 d-flex flex-column">
             <Card style={{ width: "18rem", height: "21rem" }} className="card">
               <Card.Img variant="top" src={photo} />
               <Card.Body className="d-flex flex-column">
@@ -27,6 +50,8 @@ function Portfolio() {
                   variant="primary"
                   className="bottone"
                   href="https://gdlove.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Visita
                 </Button>
@@ -34,7 +59,7 @@ function Portfolio() {
             </Card>
           </Col>
 
-          <Col lg={3} xs={12} className="p-3">
+          <Col lg={4} xs={12} className="p-3">
             <Card style={{ width: "18rem", height: "21rem" }}>
               <Card.Img variant="top" src={photo2} />
               <Card.Body className="d-flex flex-column">
@@ -47,6 +72,8 @@ function Portfolio() {
                   variant="primary"
                   className="bottone"
                   href="https://netflix-clone-m3-d7.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Visita
                 </Button>
@@ -54,7 +81,7 @@ function Portfolio() {
             </Card>
           </Col>
 
-          <Col lg={3} xs={12} className="p-3">
+          <Col lg={4} xs={12} className="p-3">
             <Card style={{ width: "18rem", height: "21rem" }}>
               <Card.Img variant="top" src={photo3} />
               <Card.Body className="d-flex flex-column">
@@ -74,7 +101,7 @@ function Portfolio() {
             </Card>
           </Col>
 
-          <Col lg={3} xs={12} className="p-3">
+          <Col lg={4} xs={12} className="p-3">
             <Card style={{ width: "18rem", height: "21rem" }}>
               <Card.Img variant="top" src={photo4} />
               <Card.Body className="d-flex flex-column">
